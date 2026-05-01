@@ -1,6 +1,6 @@
-import os
 from calculadora import soma
 
+import os
 os.system('clear')
 
 print(soma(10, 20))
