@@ -25,7 +25,6 @@ try:
 except:
     raise
 
-os.system('clear')
 
 import unittest
 from baconcomovos import bacon_com_ovos

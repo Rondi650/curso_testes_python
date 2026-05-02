@@ -1,17 +1,15 @@
 import unittest
 from calc_doctest import soma, subtrai
-import os
-os.system('clear')
 
 
 class TestCalculadora(unittest.TestCase):
     def test_soma_5_e_5_deve_retornar_10(self):
         self.assertEqual(soma(5, 5), 10)
 
-    def teste_soma_5_negativo_e_5_deve_retornar_0(self):
+    def test_soma_5_negativo_e_5_deve_retornar_0(self):
         self.assertEqual(soma(-5, 5), 0)
 
-    def teste_soma_varias_entradas(self):
+    def test_soma_varias_entradas(self):
         x_y_saidas = (
             (10, 10, 20),
             (5, 5, 10),
@@ -42,4 +40,5 @@ class TestCalculadoraSubtrair(unittest.TestCase):
             subtrai('5', 5)
 
 
-unittest.main(verbosity=2)
+if __name__ == '__main__':
+    unittest.main(verbosity=2)

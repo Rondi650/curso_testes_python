@@ -31,8 +31,6 @@ import unittest
 from unittest.mock import patch
 from pessoa import Pessoa
 
-os.system('clear')
-
 class TestPessoa(unittest.TestCase):
     def setUp(self):
         self.p1 = Pessoa('Luiz', 'Otávio')

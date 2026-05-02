@@ -1,6 +1,3 @@
-import os
-os.system('clear')
-
 
 def soma(x, y):
     ''' Soma x e y
