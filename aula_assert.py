@@ -1,4 +1,4 @@
-from calculadora import soma
+from calc_doctest import soma
 
 import os
 os.system('clear')

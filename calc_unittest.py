@@ -1,5 +1,5 @@
 import unittest
-from calculadora import soma, subtrai
+from calc_doctest import soma, subtrai
 import os
 os.system('clear')
 
